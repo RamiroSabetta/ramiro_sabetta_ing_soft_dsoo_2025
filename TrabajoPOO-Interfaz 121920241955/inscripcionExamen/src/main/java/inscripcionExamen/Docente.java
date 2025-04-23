@@ -11,7 +11,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-
+EditadoPorRamiro
 public class Docente implements Sesion {
 	private Usuario usuario;
 	private Conexion base;
