@@ -2,7 +2,7 @@ package inscripcionExamen;
 
 import java.awt.Component;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;qweqweqweqwe
+import java.awt.event.ActionListener;
 import java.util.List;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
@@ -15,7 +15,7 @@ public class Docente implements Sesion {
 	private Usuario usuario;
 	private Conexion base;
 	private GUIDocente interfaz;
-qweqweqweqweq
+
 	public Docente() {
 		interfaz = new GUIDocente();
 		interfaz.asignarAccionBtnBuscarExamenDocente(buscarDocenteExamenes());
@@ -25,7 +25,7 @@ qweqweqweqweq
 		
 	}
 
-	@Overrideqweqweqweqweqwe
+	@Override
 	public Usuario getUsuario() {
 		return usuario;
 	}
@@ -51,7 +51,7 @@ qweqweqweqweq
 		interfaz.completarTablaDocenteExamenes(interfaz.getTablaVocalDocente(),
 				base.getExamenesByDocenteVocal(usuario));
 
-	}qweqweqweqwewe
+	}
 
 	public ActionListener buscarDocenteExamenes() {
 		return new ActionListener() {
@@ -71,7 +71,7 @@ qweqweqweqweq
 
 			}
 		};
-	}qweqweqweqweqweqwe
+	}
 	
 	// Exportar tabla de examenes
 	
